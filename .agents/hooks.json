@@ -1,0 +1,16 @@
+{
+  "project-readonly-guard": {
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts\\scope_guard.ps1",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+# Single-folder `-file` layout for Primers, subfolders for Labs
+
+Standalone Primers share a single `odin_how_to/` directory as individual `package main` files run via `odin run <file>.odin -file`, while multi-file concepts live in numbered Lab subfolders run as standard directory packages (`odin run <dir>`). Because Odin compiles every `.odin` file in a directory as a single package by default, running `odin run .` inside `odin_how_to/` fails on duplicate `main` declarations; this layout deliberately trades directory-wide compilation for a flat, browseable folder inspired by `CodingTemplateExamples/how_to` rather than wrapping every Primer in its own directory.

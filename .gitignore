@@ -1,0 +1,26 @@
+# Build artifacts
+.build/
+odin_how_to/.build/
+*.exe
+*.pdb
+*.obj
+*.lib
+*.exp
+*.dll
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Personal & reference files
+python_how_to_learning/
+python-3.15-docs-text/
+computer_enhance.txt
+CodingTemplateExamples/
+
+# Editor & local scratch directories
+.vscode/
+.openidea/
+.scratch/
+
