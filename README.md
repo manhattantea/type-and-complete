@@ -1,30 +1,32 @@
 # Type and Complete
 
+Learn to code using an AI autocomplete of your choice alongside helpful editor plugins (such as AREPL for Python in VS Code). You can use GitHub Copilot autocomplete or any other free plugin preview and follow along at your own pace.
 
-Learn to code by using an AI autocomplete of your choice, along with assisting plugins of your choice like AREPL in vscode for python among others. You can try using copilot autocomplete or use any other plugin for free without paying and just follow along with the free previews they offer.
+<table>
+  <thead>
+    <tr>
+      <th colspan="2"><div align="center"><b>Examples</b></div></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%" align="center"><img src="assets/example_1.png" alt="Example 1" /></td>
+      <td width="50%" align="center"><img src="assets/example_2.png" alt="Example 2" /></td>
+    </tr>
+  </tbody>
+</table>
 
-<div align="center">
+Inspired by Jonathan Blow's Jai `how_to` style, this repository currently includes [`odin_how_to/`](odin_how_to/) and [`python_how_to/`](python_how_to/), with more languages to come. There is also a [`tracy_how_to/`](tracy_how_to/) workspace exploring performance-aware programming and profiling concepts.
 
-
-| | |
-| :---: | :---: |
-| ![Example 1](assets/example_1.png) | ![Example 2](assets/example_2.png) |
- </div>
-
-It's based on the JAI coding language how_to style by Jonathan Blow. Currently there is a Odin and Python pack you can use with many others to come.
-
-There is also a Tracy profiler how_to folder, it explores performance aware concepts.
-
-
-Simply download the folder of your choice and get started coding.
-
-
+Simply download or clone the folder of your choice and start coding.
 
 ## Contributing
 
-Generally speaking most of the files are standalone outside of a few folders that show concepts like multifile compilation among others, you can contribute by adding more functions/lessons in each file or pointing out mistakes and errors. 
+Most files are standalone, aside from a few lab folders that cover multi-file compilation and larger concepts. You can contribute by:
 
-Or if you wish you can make your own repository that can be linked here where you can use the how_to_blueprint as a starting point for an AI agent to generate a new language how_to pack.
+- Adding more functions or drills to existing files
+- Reporting mistakes, typos, or errors
+- Creating your own repository using [`how_to_blueprint/`](how_to_blueprint/) as a starting point for an AI agent to generate a new language pack (which can be linked here)
 
 ## License
 
