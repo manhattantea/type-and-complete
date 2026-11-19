@@ -5,6 +5,8 @@ Learn to code by using an AI autocomplete of your choice, along with assisting p
 
 It's based on the JAI coding language how_to style by Jonathan Blow. Currently there is a Odin and Python pack you can use with many others to come.
 
+There is also a Tracy profiler how_to folder, it explores performance aware concepts.
+
 
 Simply download the folder of your choice and get started coding.
 

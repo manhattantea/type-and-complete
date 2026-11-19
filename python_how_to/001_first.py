@@ -128,7 +128,7 @@ def debug_fstrings_and_docstrings() -> None:
 
     # Declare tag = "42" and count = 42.
     # Print f"{tag!s}", f"{tag!r}", f"{count!r}", f"{tag=}", and f"{count * 2=}".
-    print(f"{tag!s}"")
+
 
     # Print both module __doc__ and main.__doc__ using debug f-strings:
     # print(f"{__doc__=}") and print(f"{main.__doc__=}")
